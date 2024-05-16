@@ -71,7 +71,7 @@ El objetivo es diseñar y programar un sistema en Java capaz de administrar cuen
 #### Diagrama de Clases
 
 ![DiagramadeClases placeholder](../../../public/diagram.png)
-Fuente: `Desarrollada por su servilleta`
+Fuente: `Suministrado por el profesor`
 
 #### Diagrama de Flujo
 
