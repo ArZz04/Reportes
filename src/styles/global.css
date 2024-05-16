@@ -48,6 +48,12 @@ main {
 	margin: auto;
 	padding: 3em 1em;
 }
+main ul {
+	padding: 0; /* Eliminamos el relleno predeterminado de la lista */
+	margin: 0; /* Eliminamos el margen predeterminado de la lista */
+	justify-content: center; /* Alineamos los elementos horizontalmente */
+}
+
 h1,
 h2,
 h3,
