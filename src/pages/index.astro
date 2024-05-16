@@ -1,0 +1,37 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Card from '../components/Card.astro';
+import { SITE_TITLE, SITE_DESCRIPTION, FIGURAS_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>REPORTES DE PRACTICAS</h1>
+			<p>
+				En este blog encontraras los reportes de las practicas realizadas 
+				en el curso de Programacion Orientada a Objetos de la carrera de 
+				Ingenieria en Sistemas Computacionales del Tecnologio Superior de Zapopan.
+			</p>
+			<p>Los reportes correspondientes a las practicas son los siguientes:</p>
+			<ul>
+				<Card title='FIGURAS' body='hasd', href='blog/banco' ></Card>
+				<Card title='PERSONAS' body='hasd', href='blog/personas' ></Card>
+				<Card title='CUENTA BANCARIA' body={FIGURAS_DESCRIPTION}, href='blog/banco' ></Card>
+			</ul>
+			<p>
+				Puedes ir a revisar mis demas repositorios en mi GitHub <a
+					href="https://github.com/ArZz04"
+					>ArZz04</a> por <a href="https://www.instagram.com/ArZz.04">Juan Arvizu</a>.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
