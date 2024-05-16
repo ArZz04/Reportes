@@ -75,12 +75,11 @@ Fuente: `de los deseos`
 
 ### Pruebas Funcionales
 ##### Recurso 1.0
-
+![DiagramadeClases placeholder](../../../public/recurso1.png)
 ##### Recurso 1.1
-
+![DiagramadeClases placeholder](../../../public/recurso2.png)
 ##### Recurso 1.2
-
-##### Recurso 1.3
+![DiagramadeClases placeholder](../../../public/recurso3.png)
 
 ### CODIGOS
 
