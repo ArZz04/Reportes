@@ -89,7 +89,7 @@ Fuente: `de los deseos`
 
 ### CODIGOS
 
-<script src="https://gist.github.com/ArZz04/d20f029d32b0f60b62ec7938765f3703.js"></script>
+<script src="https://gist.github.com/ArZz04/4d99b9fbfe041be4783820b23132988c.js"></script>
 
 #### Conclusiones
 
