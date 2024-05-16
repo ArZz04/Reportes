@@ -76,11 +76,11 @@ Fuente: `de los deseos`
 
 ### Pruebas Funcionales
 ##### Recurso 1.0
-![DiagramadeClases placeholder](../../../public/recurso1.png)
+![Recurso placeholder](../../../public/recurso1.png)
 ##### Recurso 1.1
-![DiagramadeClases placeholder](../../../public/recurso2.png)
+![Recurso placeholder](../../../public/recurso2.png)
 ##### Recurso 1.2
-![DiagramadeClases placeholder](../../../public/recurso3.png)
+![Recurso placeholder](../../../public/recurso3.png)
 
 
 ### CODIGOS

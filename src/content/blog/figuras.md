@@ -104,13 +104,13 @@ Fuente: `de los deseos`
 
 ### Pruebas Funcionales
 ##### Recurso 1.0
-![pruebafuncional placeholder](https://github.com/ArZz04/Figuras/blob/master/resources/PF1.png?raw=true)
+![Recurso placeholder](https://github.com/ArZz04/Figuras/blob/master/resources/PF1.png?raw=true)
 ##### Recurso 1.1
-![pruebafuncional placeholder](https://github.com/ArZz04/Figuras/blob/master/resources/PF2.png?raw=true)
+![Recurso placeholder](https://github.com/ArZz04/Figuras/blob/master/resources/PF2.png?raw=true)
 ##### Recurso 1.2
-![pruebafuncional placeholder](https://github.com/ArZz04/Figuras/blob/master/resources/PF3.png?raw=true)
+![Recurso placeholder](https://github.com/ArZz04/Figuras/blob/master/resources/PF3.png?raw=true)
 ##### Recurso 1.3
-![pruebafuncional placeholder](https://github.com/ArZz04/Figuras/blob/master/resources/PF4.png?raw=true)
+![Recurso placeholder](https://github.com/ArZz04/Figuras/blob/master/resources/PF4.png?raw=true)
 ### CODIGOS
 
 <script src="https://gist.github.com/ArZz04/e37255f39f5326c53f28051cb3c7ae16.js"></script>
