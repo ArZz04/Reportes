@@ -38,6 +38,7 @@ Este reporte detallará el diseño de las clases mencionadas, explicando sus atr
 ## Teoria
 #### Conceptos
 <br>
+
 ##### Encapsulamiento:
 
 Es el mecanismo que permite ocultar la implementación interna de un objeto y restringir el acceso a sus datos, solo permitiendo interactuar con ellos a través de métodos específicos.
@@ -80,6 +81,7 @@ Fuente: `de los deseos`
 ![DiagramadeClases placeholder](../../../public/recurso2.png)
 ##### Recurso 1.2
 ![DiagramadeClases placeholder](../../../public/recurso3.png)
+
 
 ### CODIGOS
 
