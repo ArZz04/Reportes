@@ -13,7 +13,11 @@ heroImage: 'https://images.ctfassets.net/crb83veve8xb/5NdODQFXKh7G0a9ndO2Tdr/bc9
 
 ## Introduccion
 
-En el presente informe se detalla la práctica realizada para implementar la clase abstracta Figura, siguiendo las instrucciones dadas en clase. Esta práctica se enmarca en el contexto de la programación orientada a objetos, con el objetivo de entender los conceptos de abstracción, herencia y polimorfismo, así como su aplicación en la resolución de problemas relacionados con el cálculo de áreas y perímetros de diversas figuras geométricas.
+En el mundo del desarrollo de software, la creación y gestión de datos de usuarios es una tarea fundamental en numerosas aplicaciones. La presente práctica se enfoca en el diseño e implementación de dos clases clave: Persona y FileManager, con el objetivo de gestionar información personal y facilitar su almacenamiento y manipulación en archivos.
+
+La clase Persona define los atributos y métodos necesarios para representar a un individuo, incluyendo su identificación, nombre, apellidos y ciudad de residencia. Por otro lado, la clase FileManager se encarga de manejar la lectura y escritura de datos de personas en un archivo, así como de proporcionar funcionalidades para agregar, modificar y eliminar usuarios.
+
+Este reporte detallará el diseño de las clases mencionadas, explicando sus atributos, métodos y relaciones, así como su implementación en un escenario práctico.
 
 <hr>
 
@@ -32,9 +36,8 @@ En el presente informe se detalla la práctica realizada para implementar la cla
 <hr>
 
 ## Teoria
-
 #### Conceptos
-
+<br>
 ##### Encapsulamiento:
 
 Es el mecanismo que permite ocultar la implementación interna de un objeto y restringir el acceso a sus datos, solo permitiendo interactuar con ellos a través de métodos específicos.
@@ -54,15 +57,11 @@ Es un operador en Java que se utiliza para verificar si un objeto es una instanc
 
 #### Enunciado
 
-La problemática que se resuelve no representa una dificultad grave, sino más bien una oportunidad para desarrollar una herramienta de apoyo.
+En esta práctica, se solicita diseñar e implementar dos clases en Java: Persona y FileManager, para facilitar la gestión de información personal de usuarios en una aplicación. La clase Persona contendrá los datos básicos de cada individuo, mientras que la clase FileManager se encargará de manejar la lectura y escritura de estos datos en un archivo, así como de proporcionar funcionalidades adicionales para la manipulación de usuarios.
 
-Se busca implementar una jerarquía de clases que representen diversas figuras geométricas. Estas figuras geométricas, que incluyen círculos, cuadrados, triángulos, pentágonos, entre otras, deben depender de una clase base llamada Figura.
+El objetivo principal de esta práctica es comprender los conceptos de encapsulamiento, composición y persistencia de datos en el contexto de la programación orientada a objetos. Para ello, se deberá implementar adecuadamente el diseño propuesto, asegurando la correcta definición de atributos, métodos y relaciones entre las clases.
 
-Cada figura debe contar con métodos para calcular tanto su área como su perímetro.
-
-Muchas de las veces los usuarios tienen la dificultad o requieren de la practicidad de tener un software o app o hasta un simple script que les facilite su tarea diaria o alguna tarea que sea muy repetitiva, en este caso esta practica de figuras
-
-Al tu ingresar al script en este caso te muestra un menu con varias opciones (Circulo, Cuadrado, Triangulo, Pentagono) y al elegir uno de esos te pide los requisitos necesarios para realizar el calculo de el area de la figura seleccionada, retornando asi el area de la figura seleccionada.
+Se espera que al finalizar la práctica, se haya obtenido un programa funcional que permita almacenar, modificar y eliminar datos de usuarios de manera eficiente, demostrando así la comprensión de los conceptos y técnicas involucradas en el desarrollo de software orientado a objetos y la manipulación de archivos en Java.
 
 #### Diagrama de Clases
 
@@ -76,26 +75,26 @@ Fuente: `de los deseos`
 
 ### Pruebas Funcionales
 ##### Recurso 1.0
-![pruebafuncional placeholder](https://github.com/ArZz04/)
+
 ##### Recurso 1.1
-![pruebafuncional placeholder](https://github.com/ArZz04/)
+
 ##### Recurso 1.2
-![pruebafuncional placeholder](https://github.com/ArZz04/)
+
 ##### Recurso 1.3
-![pruebafuncional placeholder](https://github.com/ArZz04/)
+
 ### CODIGOS
 
 <script src="https://gist.github.com/ArZz04/d20f029d32b0f60b62ec7938765f3703.js"></script>
 
 #### Conclusiones
 
-En el desarrollo de esta práctica, logre medio entender y creo que tambien supe usar o aplicar los conceptos de clases abstractas, polimorfismo y encapsulamiento. `(Que esten bien usados es otra cosa JAJAJAJ)` La creacion del menu es la que facilitara la interacción con el usuario y permitira una mejor comprension y funcionamiento del programa o script.
+En el desarrollo de esta práctica, logre medio entender y creo que tambien supe usar o aplicar los conceptos de herencia, polimorfismo y extends y todo lo relacionado a File. `(Que esten bien usados es otra cosa JAJAJAJ)` La creacion del menu es la que facilitara la interacción con el usuario y permitira una mejor comprension y funcionamiento del programa o script.
 
 
 #### Bibliografia
 
-> Area de Figura Geometrica. <br>  <cite>[math3logic](https://math3logic.com/area-de-figura-geometricas)</cite>
+> Ejemplo Java FileWriter. <br>  <cite>[digitalocean](https://www.digitalocean.com/community/tutorials/java-filewriter-example)</cite>
 
 > Documentacion de Java (Extends) <br> <cite>[developer.mozilla](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes/extends)</cite>
 
-> Ejemplo de Override <br> <cite>[tutorialesprogramacionya](https://www.tutorialesprogramacionya.com/javaya/detalleconcepto.php?punto=96&codigo=176&inicio=80)</cite>
+> Using BufferedReader to read Text File <br> <cite>[stackoverflow](https://stackoverflow.com/questions/16104616/using-bufferedreader-to-read-text-file)</cite>
