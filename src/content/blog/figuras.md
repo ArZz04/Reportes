@@ -102,7 +102,7 @@ Fuente: `Aportada por el profesor`
 ![DiagramadeClases placeholder](https://s1.significados.com/foto/diagrama-de-flujo-tipo-vertical.jpg?class=article)
 Fuente: `de los deseos`
 
-### Pruebas Funcionales\
+### Pruebas Funcionales
 ##### Recurso 1.0
 ![pruebafuncional placeholder](https://github.com/ArZz04/Figuras/blob/master/resources/PF1.png?raw=true)
 ##### Recurso 1.1
@@ -115,12 +115,12 @@ Fuente: `de los deseos`
 
 <script src="https://gist.github.com/ArZz04/e37255f39f5326c53f28051cb3c7ae16.js"></script>
 
-### Conclusiones
+#### Conclusiones
 
 En el desarrollo de esta práctica, logre medio entender y creo que tambien supe usar o aplicar los conceptos de clases abstractas, polimorfismo y encapsulamiento. `(Que esten bien usados es otra cosa JAJAJAJ)` La creacion del menu es la que facilitara la interacción con el usuario y permitira una mejor comprension y funcionamiento del programa o script.
 
 
-### Bibliografia
+#### Bibliografia
 
 > Area de Figura Geometrica. <br>  <cite>[math3logic](https://math3logic.com/area-de-figura-geometricas)</cite>
 
