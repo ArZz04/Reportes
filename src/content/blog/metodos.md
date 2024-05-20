@@ -113,7 +113,7 @@ Fuente: `de los deseos`
 ![Recurso placeholder](https://github.com/ArZz04/Figuras/blob/master/resources/PF4.png?raw=true)
 ### CODIGOS
 
-<script src="https://gist.github.com/ArZz04/e37255f39f5326c53f28051cb3c7ae16.js"></script>
+<script src="https://gist.github.com/ArZz04/e88a889ba10b6f811ba63a69ffeb9f81.js"></script>
 
 #### Conclusiones
 
