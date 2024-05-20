@@ -2,7 +2,7 @@
 title: 'BIBLIOTECA'
 description: 'REPORTE DE PRACTICA DE BIBLIOTECA'
 pubDate: 'May 4, 2024'
-heroImage: 'https://w0.peakpx.com/wallpaper/48/761/HD-wallpaper-library-minecraft-library-minecraft.jpg'
+heroImage: 'https://i.redd.it/ikdtgyrki9d91.jpg'
 ---
 
 **NOMBRE** : JUAN ALBERTO ARVIZU CASTILLO <br>
