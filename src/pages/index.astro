@@ -3,7 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Card from '../components/Card.astro';
-import { SITE_TITLE, SITE_DESCRIPTION, FIGURAS_DESCRIPTION, PERSONAS_DESCRIPTION, BANCO_DESCRIPTION } from '../consts';
+import { SITE_TITLE, SITE_DESCRIPTION, FIGURAS_DESCRIPTION, PERSONAS_DESCRIPTION, BANCO_DESCRIPTION, METODOS_DESCRIPTION, BIBLIOTECA_DESCRIPTION } from '../consts';
 ---
 
 <!doctype html>
@@ -22,6 +22,10 @@ import { SITE_TITLE, SITE_DESCRIPTION, FIGURAS_DESCRIPTION, PERSONAS_DESCRIPTION
 			</p>
 			<p>Los reportes correspondientes a las practicas son los siguientes:</p>
 			<ul>
+				<Card title='METODOS' body={METODOS_DESCRIPTION}, href='blog/banco' icon='卐'></Card>
+				<br>
+				<Card title='BIBLIOTECA' body={BIBLIOTECA_DESCRIPTION}, href='blog/banco' icon='卐'></Card>
+				<br>
 				<Card title='FIGURAS' body={FIGURAS_DESCRIPTION}, href='blog/figuras' icon='卐'></Card>
 				<br>
 				<Card title='PERSONAS' body={PERSONAS_DESCRIPTION}, href='blog/personas' icon='卍'></Card>
