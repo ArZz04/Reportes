@@ -13,7 +13,10 @@ heroImage: "https://miro.medium.com/v2/resize:fit:750/1*vn5uqr_bPaNh9qHGZASvkg.p
 
 ## Introduccion
 
-En el presente informe se detalla la práctica realizada para implementar la clase abstracta Figura, siguiendo las instrucciones dadas en clase. Esta práctica se enmarca en el contexto de la programación orientada a objetos, con el objetivo de entender los conceptos de abstracción, herencia y polimorfismo, así como su aplicación en la resolución de problemas relacionados con el cálculo de áreas y perímetros de diversas figuras geométricas.
+Esta práctica se enfoca en la creación de una calculadora interactiva con diversas funcionalidades matemáticas.
+
+El programa principal se estructura en torno a un menú que permite al usuario seleccionar diferentes operaciones matemáticas, como suma, resta, multiplicación, división, y evaluaciones más complejas como la verificación de números primos, números perfectos y números amigos.
+
 
 <hr>
 
@@ -35,62 +38,11 @@ En el presente informe se detalla la práctica realizada para implementar la cla
 
 #### Conceptos
 
-##### Clases Abstractas:
-
-Son aquellas que no pueden ser instanciadas directamente, sino que sirven como plantillas para otras clases. Pueden contener métodos abstractos, es decir, métodos que no tienen una implementación definida en la clase abstracta, dejando su implementación a las clases hijas.
-
-##### Polimorfismo:
-
-Permite que objetos de diferentes clases respondan al mismo mensaje, comportándose de manera distinta según su tipo.
-
 ##### Encapsulamiento:
 
 Es el mecanismo que permite ocultar la implementación interna de un objeto y restringir el acceso a sus datos, solo permitiendo interactuar con ellos a través de métodos específicos.
 
-##### @Override:
-
-Indica que un método de una clase hija está sobrescribiendo (o implementando de forma específica) un método de la clase padre. Esto significa que el método en la clase hija tiene la misma firma (nombre y parámetros) que el método en la clase padre.
-
-Al utilizar @Override, el compilador verifica que estés realmente sobrescribiendo un método existente en la superclase, ayudándote a evitar errores de sintaxis.
-
-##### Ejemplo
-```markdown
-```java 
-class Animal {
-    void hacerSonido() {
-        System.out.println("Sonido de animal genérico");
-    }
-}
-
-class Perro extends Animal {
-    @Override
-    void hacerSonido() {
-        System.out.println("Guau");
-    }
-}
-```
-
-##### extends:
-
-Es un operador en Java que se utiliza para verificar si un objeto es una instancia de una clase, una subclase o una interfaz. Retorna true si el objeto es una instancia del tipo especificado o de una de sus subclases, y false en caso contrario.
-
-##### instanceof:
-
-Es una palabra clave en Java que se utiliza en la declaración de clases para indicar que una clase es una subclase de otra clase. En otras palabras, una clase que "extiende" otra clase hereda los campos y métodos de la clase extendida.
-
 ## Desarrollo
-
-#### Enunciado
-
-La problemática que se resuelve no representa una dificultad grave, sino más bien una oportunidad para desarrollar una herramienta de apoyo.
-
-Se busca implementar una jerarquía de clases que representen diversas figuras geométricas. Estas figuras geométricas, que incluyen círculos, cuadrados, triángulos, pentágonos, entre otras, deben depender de una clase base llamada Figura.
-
-Cada figura debe contar con métodos para calcular tanto su área como su perímetro.
-
-Muchas de las veces los usuarios tienen la dificultad o requieren de la practicidad de tener un software o app o hasta un simple script que les facilite su tarea diaria o alguna tarea que sea muy repetitiva, en este caso esta practica de figuras
-
-Al tu ingresar al script en este caso te muestra un menu con varias opciones (Circulo, Cuadrado, Triangulo, Pentagono) y al elegir uno de esos te pide los requisitos necesarios para realizar el calculo de el area de la figura seleccionada, retornando asi el area de la figura seleccionada.
 
 #### Diagrama de Clases
 
@@ -117,13 +69,8 @@ Fuente: `de los deseos`
 
 #### Conclusiones
 
-En el desarrollo de esta práctica, logre medio entender y creo que tambien supe usar o aplicar los conceptos de clases abstractas, polimorfismo y encapsulamiento. `(Que esten bien usados es otra cosa JAJAJAJ)` La creacion del menu es la que facilitara la interacción con el usuario y permitira una mejor comprension y funcionamiento del programa o script.
-
+En el desarrollo de esta práctica, logre medio entender y creo que tambien supe usar o aplicar los conceptos de clases encapsulamiento. `(Que esten bien usados es otra cosa JAJAJAJ)` La creacion del menu es la que facilitara la interacción con el usuario y permitira una mejor comprension y funcionamiento del programa o script.
 
 #### Bibliografia
 
-> Area de Figura Geometrica. <br>  <cite>[math3logic](https://math3logic.com/area-de-figura-geometricas)</cite>
-
-> Documentacion de Java (Extends) <br> <cite>[developer.mozilla](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes/extends)</cite>
-
-> Ejemplo de Override <br> <cite>[tutorialesprogramacionya](https://www.tutorialesprogramacionya.com/javaya/detalleconcepto.php?punto=96&codigo=176&inicio=80)</cite>
+> Codigo de la gran parte. <br>  <cite>[Rigoberto Cárdenas Larios]</cite>
