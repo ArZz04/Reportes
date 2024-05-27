@@ -13,11 +13,11 @@ heroImage: 'https://i.redd.it/ikdtgyrki9d91.jpg'
 
 ## Introduccion
 
-En el mundo del desarrollo de software, la creación y gestión de datos de usuarios es una tarea fundamental en numerosas aplicaciones. La presente práctica se enfoca en el diseño e implementación de dos clases clave: Persona y FileManager, con el objetivo de gestionar información personal y facilitar su almacenamiento y manipulación en archivos.
+Esta práctica se enfoca en crear e implementar tres clases principales: Editorial, Libro y Autor, con el objetivo de manejar datos de bibliotecas de manera eficiente.
 
-La clase Persona define los atributos y métodos necesarios para representar a un individuo, incluyendo su identificación, nombre, apellidos y ciudad de residencia. Por otro lado, la clase FileManager se encarga de manejar la lectura y escritura de datos de personas en un archivo, así como de proporcionar funcionalidades para agregar, modificar y eliminar usuarios.
+La clase Autor incluye atributos como ids, nombres y ciudad. La clase Editorial almacena información sobre las editoriales, como nombre, dirección y domicilio. La clase Libro representa a un libro, con atributos como título, género y autor(es).
 
-Este reporte detallará el diseño de las clases mencionadas, explicando sus atributos, métodos y relaciones, así como su implementación en un escenario práctico.
+Para gestionar estas entidades, se ha diseñado un menú interactivo que permite agregar, buscar, modificar y eliminar autores, editoriales y libros. Esto facilita la administración y organización de la información bibliográfica.
 
 <hr>
 
@@ -46,13 +46,9 @@ Es el mecanismo que permite ocultar la implementación interna de un objeto y re
 ##### Herencia:
 Permite a una clase heredar atributos y métodos de otra clase. Esto fomenta la reutilización de código y la organización jerárquica de las clases.
 
-##### Polimorfismo:
+##### ArrayList:
 
-Permite que objetos de diferentes clases respondan al mismo mensaje, comportándose de manera distinta según su tipo.
-
-##### extends:
-
-Es un operador en Java que se utiliza para verificar si un objeto es una instancia de una clase, una subclase o una interfaz. Retorna true si el objeto es una instancia del tipo especificado o de una de sus subclases, y false en caso contrario.
+Permite almacenar datos en memoria de forma similar a los Arrays, con la ventaja de que el numero de elementos que almacena, lo hace de forma dinámica.
 
 ## Desarrollo
 
@@ -76,11 +72,19 @@ Fuente: `de los deseos`
 
 ### Pruebas Funcionales
 ##### Recurso 1.0
-![Recurso placeholder](../../../public/recurso1.png)
-##### Recurso 1.1
-![Recurso placeholder](../../../public/recurso2.png)
-##### Recurso 1.2
 ![Recurso placeholder](../../../public/recurso3.png)
+##### Recurso 1.1
+![Recurso placeholder](../../../public/recurso3.1.png)
+##### Recurso 1.2
+![Recurso placeholder](../../../public/recurso3.2.png)
+##### Recurso 1.3
+![Recurso placeholder](../../../public/recurso3.3.png)
+##### Recurso 1.4
+![Recurso placeholder](../../../public/recurso3.4.png)
+##### Recurso 1.5
+![Recurso placeholder](../../../public/recurso3.5.png)
+##### Recurso 1.6
+![Recurso placeholder](../../../public/recurso3.6.png)
 
 
 ### CODIGOS
@@ -89,13 +93,11 @@ Fuente: `de los deseos`
 
 #### Conclusiones
 
-En el desarrollo de esta práctica, logre medio entender y creo que tambien supe usar o aplicar los conceptos de herencia, polimorfismo y extends y todo lo relacionado a File. `(Que esten bien usados es otra cosa JAJAJAJ)` La creacion del menu es la que facilitara la interacción con el usuario y permitira una mejor comprension y funcionamiento del programa o script.
+En el desarrollo de esta práctica, logre medio entender y creo que tambien supe usar o aplicar los conceptos de herencia y extends y cosas sobre ArrayList como el agregar, eliminar y manipular los datos dentro de ella a base de poo. `(Que esten bien usados es otra cosa JAJAJAJ)` La creacion del menu es la que facilitara la interacción con el usuario y permitira una mejor comprension y funcionamiento del programa o script.
 
 
 #### Bibliografia
 
-> Ejemplo Java FileWriter. <br>  <cite>[digitalocean](https://www.digitalocean.com/community/tutorials/java-filewriter-example)</cite>
+> Ejemplo Java ArrayList. <br>  <cite>[w3schools](https://www.w3schools.com/java/java_arraylist.asp)</cite>
 
-> Documentacion de Java (Extends) <br> <cite>[developer.mozilla](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes/extends)</cite>
 
-> Using BufferedReader to read Text File <br> <cite>[stackoverflow](https://stackoverflow.com/questions/16104616/using-bufferedreader-to-read-text-file)</cite>
