@@ -80,13 +80,13 @@ Fuente: `de los deseos`
 
 ### Pruebas Funcionales
 ##### Recurso 1.0
-![Recurso placeholder](../../../public/recurso2.1.png)
+![Recurso placeholder](../../../public/recurso2.png)
 ##### Recurso 1.1
-![Recurso placeholder](../../../public/recurso2.2.png)
+![Recurso placeholder](../../../public/recurso2.1.png)
 ##### Recurso 1.2
-![Recurso placeholder](../../../public/recurso2.3.png)
+![Recurso placeholder](../../../public/recurso2.2.png)
 ##### Recurso 1.3
-![Recurso placeholder](../../../public/recurso2.4.png)
+![Recurso placeholder](../../../public/recurso2.3.png)
 ### CODIGOS
 
 <script src="https://gist.github.com/ArZz04/4d99b9fbfe041be4783820b23132988c.js"></script>
