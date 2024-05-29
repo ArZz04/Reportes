@@ -52,14 +52,6 @@ Permite almacenar datos en memoria de forma similar a los Arrays, con la ventaja
 
 ## Desarrollo
 
-#### Enunciado
-
-En esta práctica, se solicita diseñar e implementar dos clases en Java: Persona y FileManager, para facilitar la gestión de información personal de usuarios en una aplicación. La clase Persona contendrá los datos básicos de cada individuo, mientras que la clase FileManager se encargará de manejar la lectura y escritura de estos datos en un archivo, así como de proporcionar funcionalidades adicionales para la manipulación de usuarios.
-
-El objetivo principal de esta práctica es comprender los conceptos de encapsulamiento, composición y persistencia de datos en el contexto de la programación orientada a objetos. Para ello, se deberá implementar adecuadamente el diseño propuesto, asegurando la correcta definición de atributos, métodos y relaciones entre las clases.
-
-Se espera que al finalizar la práctica, se haya obtenido un programa funcional que permita almacenar, modificar y eliminar datos de usuarios de manera eficiente, demostrando así la comprensión de los conceptos y técnicas involucradas en el desarrollo de software orientado a objetos y la manipulación de archivos en Java.
-
 #### Diagrama de Clases
 
 ![DiagramadeClases placeholder](https://github.com/ArZz04/Personas/blob/main/resources/clases.png?raw=true)
