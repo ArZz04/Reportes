@@ -54,7 +54,7 @@ Permite almacenar datos en memoria de forma similar a los Arrays, con la ventaja
 
 #### Diagrama de Clases
 
-![DiagramadeClases placeholder](https://github.com/ArZz04/Personas/blob/main/resources/clases.png?raw=true)
+![DiagramadeClases placeholder](../../../public/recurso5.png)
 Fuente: `Desarrollada por su servilleta`
 
 #### Diagrama de Flujo
