@@ -1,5 +1,5 @@
 ---
-title: "ARRAYLIST"
+title: "EXCEPCIONES"
 description: "INVESTIGACION SOBRE EXCEPCIONES EN JAVA"
 pubDate: "May 4, 2024"
 heroImage: "https://storage.googleapis.com/bari-cloud/parques-tesistan/images/Designer%20(1).jpeg"
