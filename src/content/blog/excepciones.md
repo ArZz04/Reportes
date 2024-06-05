@@ -13,7 +13,7 @@ heroImage: "https://storage.googleapis.com/bari-cloud/parques-tesistan/images/De
 
 #### Descripcion
 
-Las excepciones en Java son eventos que ocurren durante la ejecución de un programa y que interrumpen el flujo normal de las instrucciones. Se utilizan para manejar errores y otros eventos excepcionales de una manera controlada. Las excepciones son objetos que representan condiciones de error y se generan (lanzan) cuando ocurre una situación inesperada. Java proporciona un mecanismo robusto para la captura y manejo de excepciones, lo que permite a los desarrolladores escribir código más resistente y menos propenso a fallos.
+Las excepciones en Java son eventos que ocurren durante la ejecución de un programa y que interrumpen el flujo normal de las instrucciones. Se utilizan para manejar errores y otros eventos excepcionales de una manera controlada. Las excepciones son objetos que representan condiciones de error y se generan (lanzan) cuando ocurre una situación inesperada.
 
 <hr>
 
