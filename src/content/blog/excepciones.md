@@ -13,71 +13,148 @@ heroImage: "https://storage.googleapis.com/bari-cloud/parques-tesistan/images/De
 
 #### Descripcion
 
-ArrayList es una clase en Java que implementa la interfaz List y proporciona una implementación de tamaño dinámico de la matriz. Permite almacenar elementos de forma dinámica y proporciona operaciones como agregar, eliminar, recuperar y buscar elementos en la lista. La clase ArrayList es parte del paquete java.util y es una de las estructuras de datos más utilizadas en Java debido a su flexibilidad y facilidad de uso.
+Las excepciones en Java son eventos que ocurren durante la ejecución de un programa y que interrumpen el flujo normal de las instrucciones. Se utilizan para manejar errores y otros eventos excepcionales de una manera controlada. Las excepciones son objetos que representan condiciones de error y se generan (lanzan) cuando ocurre una situación inesperada. Java proporciona un mecanismo robusto para la captura y manejo de excepciones, lo que permite a los desarrolladores escribir código más resistente y menos propenso a fallos.
 
 <hr>
 
-#### Sintaxis
+#### Tipos de Excepciones en Java
 
-```markdown
-```java 
-ArrayList<Tipo> arrayListEjemplo = new ArrayList<>();
-```
-
-<hr>
-
-#### Métodos Comunes
-
-1. > add(E elemento): <br> 
-`Descripción`: Agrega el elemento especificado al final de la lista. <br>
-`Sintaxis`: public boolean add(E elemento) <br>
+1. > ArithmeticException: <br> 
+`Descripción`: Se lanza cuando se produce un error aritmético, como la división por cero. <br>
 `Ejemplo`: 
     ```markdown
     ```java 
-    ArrayList<String> listaFrutas = new ArrayList<>();
-    listaFrutas.add("Manzana");
-    listaFrutas.add("Banana");
-    listaFrutas.add("Fresa");
+    int resultado = 10 / 0; // Lanza ArithmeticException
     ```
 
-2. > get(int índice): <br>
-`Descripción`: Devuelve el elemento en la posición especificada en la lista. <br>
-`Sintaxis`: public E get(int índice) <br>
+2. > NullPointerException: <br>
+`Descripción`: Se lanza cuando se intenta utilizar una referencia nula. <br>
 `Ejemplo`: 
     ```markdown
     ```java 
-    // Continuamos con el ejemplo del ejemplo anterior :3
-    String fruta = listaFrutas.get(1); // Devuelve "Banana"
+    String texto = null;
+    int longitud = texto.length(); // Lanza NullPointerException
     ```
 
-3. > remove(int índice): <br>
-`Descripción`: Elimina el elemento en la posición especificada en la lista. <br>
-`Sintaxis`: public E remove(int índice) <br>
+3. > ArrayIndexOutOfBoundsException: <br>
+`Descripción`: Se lanza cuando se intenta acceder a un índice fuera de los límites de una matriz. <br>
 `Ejemplo`: 
     ```markdown
     ```java 
-    // Continuamos con el ejemplo del ejemplo anterior :3
-    String frutaEliminada = listaFrutas.remove(0); // Elimina la primera fruta y devuelve "Manzana"
+    int[] numeros = {1, 2, 3};
+    int numero = numeros[5]; // Lanza ArrayIndexOutOfBoundsException
     ```
 
-4. > size(): <br>
-`Descripción`: Devuelve el número de elementos en la lista. <br>
-`Sintaxis`: public int size() <br>
+4. > FileNotFoundException: <br>
+`Descripción`: Se lanza cuando se intenta abrir un archivo que no existe. <br>
 `Ejemplo`: 
     ```markdown
     ```java 
-    // Continuamos con el ejemplo del ejemplo anterior :3
-    int tamaño = listaFrutas.size(); // Devuelve 2 (si se ha eliminado "Manzana")
+    File archivo = new File("archivo_no_existente.txt");
+    FileReader fr = new FileReader(archivo); // Lanza FileNotFoundException
     ```
 
-5. > contains(Object elemento): <br>
-`Descripción`: Verifica si la lista contiene el elemento especificado. <br>
-`Sintaxis`: public boolean contains(Object elemento) <br>
+5. > IOException: <br>
+`Descripción`: Se lanza cuando ocurre un error de E/S. <br>
 `Ejemplo`: 
     ```markdown
     ```java 
-    // Continuamos con el ejemplo del ejemplo anterior :3
-    boolean contieneBanana = listaFrutas.contains("Banana"); // Devuelve true
+    FileReader fr = new FileReader("archivo.txt");
+    fr.read(); // Puede lanzar IOException
+    ```
+
+6. > ClassNotFoundException: <br>
+`Descripción`: Se lanza cuando no se puede encontrar una clase en tiempo de ejecución. <br>
+`Ejemplo`: 
+    ```markdown
+    ```java 
+    Class.forName("com.example.ClaseInexistente"); // Lanza ClassNotFoundException
+    ```
+
+7. > SQLException: <br>
+`Descripción`: Se lanza cuando ocurre un error al acceder a una base de datos. <br>
+`Ejemplo`: 
+    ```markdown
+    ```java 
+    Connection conn = DriverManager.getConnection(url, user, password);
+    Statement stmt = conn.createStatement();
+    ResultSet rs = stmt.executeQuery("SELECT * FROM tabla_no_existente"); // Puede lanzar SQLException
+    ```
+
+8. > NumberFormatException: <br>
+`Descripción`: Se lanza cuando se intenta convertir una cadena en un número y la cadena no tiene el formato adecuado. <br>
+`Ejemplo`: 
+    ```markdown
+    ```java 
+    int numero = Integer.parseInt("abc"); // Lanza NumberFormatException
+    ```
+
+9. > IllegalArgumentException: <br>
+`Descripción`: Se lanza cuando un método recibe un argumento inválido. <br>
+`Ejemplo`: 
+    ```markdown
+    ```java 
+    Thread hilo = new Thread();
+    hilo.setPriority(100); // Lanza IllegalArgumentException
+    ```
+
+10. > IllegalStateException: <br>
+`Descripción`: Se lanza cuando el estado de una aplicación no es apropiado para la operación solicitada. <br>
+`Ejemplo`: 
+    ```markdown
+    ```java 
+    List<String> lista = new ArrayList<>();
+    Iterator<String> iterador = lista.iterator();
+    iterador.next(); // Lanza IllegalStateException
+    ```
+
+11. > UnsupportedOperationException: <br>
+`Descripción`: Se lanza cuando se intenta realizar una operación no soportada. <br>
+`Ejemplo`: 
+    ```markdown
+    ```java 
+    List<String> listaInmutable = Collections.unmodifiableList(new ArrayList<>());
+    listaInmutable.add("Elemento"); // Lanza UnsupportedOperationException
+    ```
+
+12. > ConcurrentModificationException: <br>
+`Descripción`: Se lanza cuando se detecta una modificación concurrente de un objeto cuando no está permitida. <br>
+`Ejemplo`: 
+    ```markdown
+    ```java 
+    List<String> lista = new ArrayList<>();
+    lista.add("A");
+    lista.add("B");
+    for (String elemento : lista) {
+        lista.remove(elemento); // Lanza ConcurrentModificationException
+    }
+    ```
+
+13. > ClassCastException: <br>
+`Descripción`: Se lanza cuando se intenta convertir un objeto a una clase a la que no pertenece. <br>
+`Ejemplo`: 
+    ```markdown
+    ```java 
+    Object obj = new Integer(100);
+    String str = (String) obj; // Lanza ClassCastException
+    ```
+
+14. > NegativeArraySizeException: <br>
+`Descripción`: Se lanza cuando se intenta crear una matriz con un tamaño negativo. <br>
+`Ejemplo`: 
+    ```markdown
+    ```java 
+    int[] matriz = new int[-5]; // Lanza NegativeArraySizeException
+    ```
+
+15. > IndexOutOfBoundsException: <br>
+`Descripción`: Se lanza cuando un índice de una lista o matriz está fuera de rango. <br>
+`Ejemplo`: 
+    ```markdown
+    ```java 
+    List<String> lista = new ArrayList<>();
+    lista.add("A");
+    String elemento = lista.get(2); // Lanza IndexOutOfBoundsException
     ```
 
 <hr>
