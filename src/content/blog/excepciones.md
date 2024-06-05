@@ -2,7 +2,7 @@
 title: "ARRAYLIST"
 description: "INVESTIGACION SOBRE EXCEPCIONES EN JAVA"
 pubDate: "May 4, 2024"
-heroImage: "./public/recurso.jpeg"
+heroImage: "https://storage.googleapis.com/bari-cloud/parques-tesistan/images/Designer%20(1).jpeg"
 ---
 
 **NOMBRE** : JUAN ALBERTO ARVIZU CASTILLO <br>
